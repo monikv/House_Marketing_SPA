@@ -5,8 +5,6 @@ import HouseCard from './HouseCard.vue';
 export default {
   name: 'App',
   components: {
-    // 2 register the component 
-  
     HouseCard
 },
 
@@ -39,6 +37,7 @@ export default {
         </div>
    </div>
 </template>
+
 <style scoped>
 .rows{
       display: flex;
